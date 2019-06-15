@@ -14,9 +14,6 @@
 
 ``` composer require wp-content-framework/editor ```  
 
-## 依存モジュール
-* [mobiledetect/mobiledetectlib](https://github.com/serbanghita/Mobile-Detect)
-
 # Author
 
 [GitHub (Technote)](https://github.com/technote-space)  
