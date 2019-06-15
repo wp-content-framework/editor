@@ -16,7 +16,9 @@ use Phake_IMock;
 use WP_Framework;
 use WP_Framework_Common\Classes\Models\Array_Utility;
 use WP_Framework_Common\Classes\Models\Define;
+use WP_Framework_Common\Classes\Models\File_Utility;
 use WP_Framework_Common\Classes\Models\Input;
+use WP_Framework_Common\Classes\Models\String_Utility;
 use WP_Framework_Common\Classes\Models\User;
 use WP_Framework_Common\Classes\Models\Utility;
 
@@ -64,6 +66,8 @@ class TestCase extends \PHPUnit\Framework\TestCase {
 		Phake::when( static::$app )->__get( 'input' )->thenReturn( Input::get_instance( static::$app ) );
 		Phake::when( static::$app )->__get( 'utility' )->thenReturn( Utility::get_instance( static::$app ) );
 		Phake::when( static::$app )->__get( 'array' )->thenReturn( Array_Utility::get_instance( static::$app ) );
+		Phake::when( static::$app )->__get( 'string' )->thenReturn( String_Utility::get_instance( static::$app ) );
+		Phake::when( static::$app )->__get( 'file' )->thenReturn( File_Utility::get_instance( static::$app ) );
 		Phake::when( static::$app )->__get( 'user' )->thenReturn( User::get_instance( static::$app ) );
 	}
 

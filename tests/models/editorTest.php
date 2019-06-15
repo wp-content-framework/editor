@@ -57,4 +57,26 @@ class EditorTest extends TestCase {
 
 		$wp_version = $tmp;
 	}
+
+	public function test_get_wp_editor_package_versions() {
+		$versions = static::$_editor->get_wp_editor_package_versions();
+		$this->assertNotEmpty( $versions );
+		foreach ( $versions as $package => $version ) {
+			$this->assertEquals( 1, preg_match( '#\Awp-#', $package ) );
+			$this->assertNotEmpty( $version );
+			$this->assertTrue( is_string( $version ) );
+		}
+	}
+
+	public function test_get_gutenberg_package_versions() {
+		$versions = static::$_editor->get_gutenberg_package_versions();
+		if ( false !== $versions ) {
+			$this->assertNotEmpty( $versions );
+			foreach ( $versions as $package => $version ) {
+				$this->assertEquals( 1, preg_match( '#\Awp-#', $package ) );
+				$this->assertNotEmpty( $version );
+				$this->assertTrue( is_string( $version ) );
+			}
+		}
+	}
 }
