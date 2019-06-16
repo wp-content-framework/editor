@@ -137,6 +137,13 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 	}
 
 	/**
+	 * @return string
+	 */
+	private function get_gutenberg_absolute_path() {
+		return WP_PLUGIN_DIR . DS . $this->get_gutenberg_file();
+	}
+
+	/**
 	 * @return bool
 	 */
 	private function is_gutenberg_active() {
@@ -147,7 +154,7 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 	 * @return string
 	 */
 	private function get_gutenberg_version() {
-		return $this->app->array->get( get_plugin_data( $this->get_gutenberg_file() ), 'Version' );
+		return $this->is_gutenberg_active() ? '' : $this->app->array->get( get_plugin_data( $this->get_gutenberg_absolute_path() ), 'Version' );
 	}
 
 	/**
@@ -155,7 +162,7 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 	 */
 	public function get_gutenberg_package_versions() {
 		if ( $this->is_gutenberg_active() ) {
-			$dir = dirname( WP_PLUGIN_DIR . DS . $this->get_gutenberg_file() ) . DS . 'packages';
+			$dir = dirname( $this->get_gutenberg_absolute_path() ) . DS . 'packages';
 
 			return $this->app->array->combine( $this->app->array->filter( $this->app->array->map( $this->app->file->dirlist( $dir ), function ( $data ) use ( $dir ) {
 				$package = $dir . DS . $data['name'] . DS . 'package.json';
