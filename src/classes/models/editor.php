@@ -2,7 +2,6 @@
 /**
  * WP_Framework_Editor Classes Models Editor
  *
- * @version 0.0.3
  * @author Technote
  * @copyright Technote All Rights Reserved
  * @license http://www.opensource.org/licenses/gpl-2.0.php GNU General Public License, version 2
@@ -154,7 +153,7 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 	 * @return string
 	 */
 	private function get_gutenberg_version() {
-		return $this->is_gutenberg_active() ? '' : $this->app->array->get( get_plugin_data( $this->get_gutenberg_absolute_path() ), 'Version' );
+		return $this->is_gutenberg_active() ? $this->app->array->get( get_plugin_data( $this->get_gutenberg_absolute_path() ), 'Version' ) : '';
 	}
 
 	/**
