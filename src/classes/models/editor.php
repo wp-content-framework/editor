@@ -154,7 +154,7 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 	 * @return string
 	 */
 	private function get_gutenberg_version() {
-		return $this->is_gutenberg_active() ? '' : $this->app->array->get( get_plugin_data( $this->get_gutenberg_absolute_path() ), 'Version' );
+		return $this->is_gutenberg_active() ? $this->app->array->get( get_plugin_data( $this->get_gutenberg_absolute_path() ), 'Version' ) : '';
 	}
 
 	/**
