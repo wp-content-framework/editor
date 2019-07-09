@@ -14,8 +14,6 @@ use WP_Framework_Core\Traits\Hook;
 use WP_Framework_Core\Traits\Singleton;
 use WP_Framework_Editor\Traits\Package;
 use Technote\GutenbergPackages;
-use Technote\GutenbergHelper;
-use Technote\Helper;
 
 if ( ! defined( 'WP_CONTENT_FRAMEWORK' ) ) {
 	exit;
@@ -29,19 +27,8 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 
 	use Singleton, Hook, Package;
 
-	/**
-	 * @var string $_cache_key
-	 */
-	private $_cache_key;
-
 	/** @var GutenbergPackages $package_helper */
 	private $package_helper;
-
-	/** @var GutenbergHelper $gutenberg_helper */
-	private $gutenberg_helper;
-
-	/** @var Helper $helper */
-	private $helper;
 
 	/**
 	 * @return bool
@@ -60,13 +47,6 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 	/**
 	 * @return bool
 	 */
-	public function can_use_block_editor() {
-		return $this->get_gutenberg_helper()->can_use_block_editor();
-	}
-
-	/**
-	 * @return bool
-	 */
 	public function is_block_editor() {
 		return $this->get_packages_helper()->is_block_editor();
 	}
@@ -75,22 +55,14 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 	 * @return array
 	 */
 	public function get_editor_package_versions() {
-		$cache = $this->cache_get( 'versions', null, $this->get_cache_key() );
-		if ( isset( $cache ) ) {
-			return $cache;
-		}
-
-		$versions = $this->get_packages_helper()->get_editor_package_versions();
-		$this->cache_set( 'versions', $versions, $this->get_cache_key() );
-
-		return $versions;
+		return $this->get_packages_helper()->get_editor_package_versions();
 	}
 
 	/**
 	 * @return array
 	 */
-	public function get_wp_editor_package_versions() {
-		return $this->get_packages_helper()->get_wp_editor_package_versions();
+	public function get_wp_core_package_versions() {
+		return $this->get_packages_helper()->get_wp_core_package_versions();
 	}
 
 	/**
@@ -119,49 +91,31 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 	}
 
 	/**
-	 * @return string
+	 * @param array $packages
+	 *
+	 * @return array
 	 */
-	private function get_cache_key() {
-		if ( ! isset( $this->_cache_key ) ) {
-			$this->_cache_key = sha1( json_encode( [
-				$this->wp_version(),
-				$this->get_gutenberg_helper()->get_gutenberg_version(),
-			] ) );
-		}
+	public function filter_packages( array $packages ) {
+		return $this->get_packages_helper()->filter_packages( $packages );
+	}
 
-		return $this->_cache_key;
+	/**
+	 * @param array $packages
+	 *
+	 * @return array
+	 */
+	public function fill_package_versions( array $packages ) {
+		return $this->get_packages_helper()->fill_package_versions( $packages );
 	}
 
 	/**
 	 * @return GutenbergPackages
 	 */
-	private function get_packages_helper() {
+	public function get_packages_helper() {
 		if ( ! isset( $this->package_helper ) ) {
-			$this->package_helper = new GutenbergPackages( $this->get_helper(), $this->get_gutenberg_helper() );
+			$this->package_helper = new GutenbergPackages();
 		}
 
 		return $this->package_helper;
-	}
-
-	/**
-	 * @return GutenbergHelper
-	 */
-	private function get_gutenberg_helper() {
-		if ( ! isset( $this->gutenberg_helper ) ) {
-			$this->gutenberg_helper = new GutenbergHelper( $this->get_helper() );
-		}
-
-		return $this->gutenberg_helper;
-	}
-
-	/**
-	 * @return Helper
-	 */
-	private function get_helper() {
-		if ( ! isset( $this->helper ) ) {
-			$this->helper = new Helper();
-		}
-
-		return $this->helper;
 	}
 }

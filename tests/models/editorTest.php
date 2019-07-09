@@ -49,16 +49,16 @@ class EditorTest extends TestCase {
 		$tmp = $wp_version;
 
 		$wp_version = '5.0.0';
-		$this->assertTrue( static::$_editor->can_use_block_editor() );
+		$this->assertTrue( static::$_editor->get_packages_helper()->get_gutenberg_helper()->can_use_block_editor() );
 
 		$wp_version = '4.9.9';
-		$this->assertFalse( static::$_editor->can_use_block_editor() );
+		$this->assertFalse( static::$_editor->get_packages_helper()->get_gutenberg_helper()->can_use_block_editor() );
 
 		$wp_version = $tmp;
 	}
 
 	public function test_get_wp_editor_package_versions() {
-		$versions = static::$_editor->get_wp_editor_package_versions();
+		$versions = static::$_editor->get_wp_core_package_versions();
 		$this->assertNotEmpty( $versions );
 		foreach ( $versions as $package => $version ) {
 			$this->assertEquals( 1, preg_match( '#\Awp-#', $package ) );
