@@ -14,6 +14,9 @@
 
 ``` composer require wp-content-framework/editor ```  
 
+## 依存モジュール
+* [technote-space/gutenberg-packages](https://github.com/technote-space/gutenberg-packages)
+
 # Author
 
 [GitHub (Technote)](https://github.com/technote-space)  
