@@ -92,11 +92,12 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 
 	/**
 	 * @param array $packages
+	 * @param array $merge
 	 *
 	 * @return array
 	 */
-	public function filter_packages( array $packages ) {
-		return $this->get_packages_helper()->filter_packages( $packages );
+	public function filter_packages( array $packages, array $merge = [] ) {
+		return $this->get_packages_helper()->filter_packages( $packages, $merge );
 	}
 
 	/**
