@@ -13,7 +13,5 @@ if ( ! defined( 'WP_CONTENT_FRAMEWORK' ) ) {
 }
 
 return [
-
 	'editor' => '\WP_Framework_Editor\Classes\Models\Editor',
-
 ];
