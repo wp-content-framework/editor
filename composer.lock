@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4308489e35321e8754f951a5a85fcd21",
+    "content-hash": "c45bdc9224a20cc2a69d2204f2a32da7",
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
-            "version": "v0.1.20",
+            "version": "v0.2.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-package-versions.git",
-                "reference": "4ad50d4e0f583d5017688a45a82843310d3f59a0"
+                "reference": "03fabcf8f407046880f6849533a2b087768dea48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/4ad50d4e0f583d5017688a45a82843310d3f59a0",
-                "reference": "4ad50d4e0f583d5017688a45a82843310d3f59a0",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/03fabcf8f407046880f6849533a2b087768dea48",
+                "reference": "03fabcf8f407046880f6849533a2b087768dea48",
                 "shasum": ""
             },
             "require": {
@@ -56,32 +56,31 @@
                 "gutenberg",
                 "wordpress"
             ],
-            "time": "2019-09-05T16:00:19+00:00"
+            "time": "2019-12-19T16:53:37+00:00"
         },
         {
             "name": "technote/gutenberg-packages",
-            "version": "v0.1.8",
+            "version": "v0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-packages.git",
-                "reference": "37934d907a497db3c9e5aec98916ecf1a8727f0a"
+                "reference": "9d7425ce2ee12678ce913ce5a4754c9bbeeff17b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/37934d907a497db3c9e5aec98916ecf1a8727f0a",
-                "reference": "37934d907a497db3c9e5aec98916ecf1a8727f0a",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/9d7425ce2ee12678ce913ce5a4754c9bbeeff17b",
+                "reference": "9d7425ce2ee12678ce913ce5a4754c9bbeeff17b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6",
-                "technote/gutenberg-package-versions": "^0.1.13"
+                "technote/gutenberg-package-versions": "^0.2.17"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
-                "php-coveralls/php-coveralls": "^2.1",
                 "phpcompatibility/phpcompatibility-wp": "*",
-                "phpmd/phpmd": "^2.6",
-                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5",
+                "phpmd/phpmd": "^2.8",
+                "phpunit/phpunit": "^4.8 || ^5.7 || ^7.5",
                 "roave/security-advisories": "dev-master",
                 "squizlabs/php_codesniffer": "*",
                 "wp-coding-standards/wpcs": "*"
@@ -109,7 +108,7 @@
                 "gutenberg",
                 "wordpress"
             ],
-            "time": "2019-07-25T04:31:12+00:00"
+            "time": "2020-01-06T08:43:39+00:00"
         }
     ],
     "packages-dev": [
