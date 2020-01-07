@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
-            "version": "v0.2.17",
+            "version": "v0.2.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-package-versions.git",
-                "reference": "03fabcf8f407046880f6849533a2b087768dea48"
+                "reference": "2b7d8faab679abe50dc9cbe95d7242fad4d5ba8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/03fabcf8f407046880f6849533a2b087768dea48",
-                "reference": "03fabcf8f407046880f6849533a2b087768dea48",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/2b7d8faab679abe50dc9cbe95d7242fad4d5ba8a",
+                "reference": "2b7d8faab679abe50dc9cbe95d7242fad4d5ba8a",
                 "shasum": ""
             },
             "require": {
@@ -25,9 +25,8 @@
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
-                "php-coveralls/php-coveralls": "^2.1",
                 "phpcompatibility/phpcompatibility-wp": "*",
-                "phpmd/phpmd": "^2.6",
+                "phpmd/phpmd": "^2.8",
                 "phpunit/phpunit": "^4.8 || ^5.7 || ^7.5",
                 "roave/security-advisories": "dev-master",
                 "squizlabs/php_codesniffer": "*",
@@ -56,7 +55,7 @@
                 "gutenberg",
                 "wordpress"
             ],
-            "time": "2019-12-19T16:53:37+00:00"
+            "time": "2020-01-06T17:02:32+00:00"
         },
         {
             "name": "technote/gutenberg-packages",
