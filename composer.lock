@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
-            "version": "v0.2.18",
+            "version": "v0.2.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-package-versions.git",
-                "reference": "2b7d8faab679abe50dc9cbe95d7242fad4d5ba8a"
+                "reference": "dab25b1f24def7d4f2fd00d01ff37cef33401e60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/2b7d8faab679abe50dc9cbe95d7242fad4d5ba8a",
-                "reference": "2b7d8faab679abe50dc9cbe95d7242fad4d5ba8a",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/dab25b1f24def7d4f2fd00d01ff37cef33401e60",
+                "reference": "dab25b1f24def7d4f2fd00d01ff37cef33401e60",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 "gutenberg",
                 "wordpress"
             ],
-            "time": "2020-01-06T17:02:32+00:00"
+            "time": "2020-01-08T17:04:13+00:00"
         },
         {
             "name": "technote/gutenberg-packages",
