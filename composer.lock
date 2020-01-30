@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7b525bb6fe37c3083e94ca4971600403",
+    "content-hash": "e895118054aea1f7b694f140dbf61d63",
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
@@ -59,24 +59,24 @@
         },
         {
             "name": "technote/gutenberg-packages",
-            "version": "v0.2.1",
+            "version": "v0.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-packages.git",
-                "reference": "9d7425ce2ee12678ce913ce5a4754c9bbeeff17b"
+                "reference": "8da93558b1da3d74861469d41583ab013691dd18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/9d7425ce2ee12678ce913ce5a4754c9bbeeff17b",
-                "reference": "9d7425ce2ee12678ce913ce5a4754c9bbeeff17b",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/8da93558b1da3d74861469d41583ab013691dd18",
+                "reference": "8da93558b1da3d74861469d41583ab013691dd18",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6",
-                "technote/gutenberg-package-versions": "^0.2.17"
+                "technote/gutenberg-package-versions": "^0.2.21"
             },
             "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0 || ^0.6.0",
                 "phpcompatibility/phpcompatibility-wp": "*",
                 "phpmd/phpmd": "^2.8",
                 "phpunit/phpunit": "^4.8 || ^5.7 || ^7.5",
@@ -107,7 +107,7 @@
                 "gutenberg",
                 "wordpress"
             ],
-            "time": "2020-01-06T08:43:39+00:00"
+            "time": "2020-01-30T16:09:39+00:00"
         }
     ],
     "packages-dev": [
