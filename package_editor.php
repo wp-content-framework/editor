@@ -32,6 +32,7 @@ class Package_Editor extends Package_Base {
 	 */
 	public function get_configs() {
 		return [
+			'filter',
 			'map',
 		];
 	}
