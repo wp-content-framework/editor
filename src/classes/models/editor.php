@@ -38,6 +38,22 @@ class Editor implements \WP_Framework_Core\Interfaces\Singleton, \WP_Framework_C
 	}
 
 	/**
+	 * @param array $settings
+	 *
+	 * @return array
+	 *
+	 * @noinspection PhpUnusedPrivateMethodInspection
+	 * @SuppressWarnings(PHPMD.UnusedPrivateMethod)
+	 */
+	private function block_editor_settings( $settings ) {
+		if ( ! isset( $settings['package-versions'] ) ) {
+			$settings['package-versions'] = $this->get_editor_package_versions();
+		}
+
+		return $settings;
+	}
+
+	/**
 	 * @return bool
 	 */
 	public function is_valid_tinymce_color_picker() {
