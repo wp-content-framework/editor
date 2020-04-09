@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "98a811f1d1f854933473d08822f7c66e",
+    "content-hash": "1baf335e5480c13c3b4ff8e21fc4c772",
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
-            "version": "v0.2.31",
+            "version": "v0.2.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-package-versions.git",
-                "reference": "81e5776d5b2631f85c620a486c5e83e0b7f7e573"
+                "reference": "e784256248cd38ee8c1435090bc878b35ac5bea0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/81e5776d5b2631f85c620a486c5e83e0b7f7e573",
-                "reference": "81e5776d5b2631f85c620a486c5e83e0b7f7e573",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/e784256248cd38ee8c1435090bc878b35ac5bea0",
+                "reference": "e784256248cd38ee8c1435090bc878b35ac5bea0",
                 "shasum": ""
             },
             "require": {
@@ -55,31 +55,25 @@
                 "gutenberg",
                 "wordpress"
             ],
-            "funding": [
-                {
-                    "url": "https://paypal.me/technote0space",
-                    "type": "custom"
-                }
-            ],
-            "time": "2020-03-24T17:48:04+00:00"
+            "time": "2020-04-04T19:42:40+00:00"
         },
         {
             "name": "technote/gutenberg-packages",
-            "version": "v0.2.4",
+            "version": "v0.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-packages.git",
-                "reference": "d24660af8004d9d36765d586c9c506c96db6c3fd"
+                "reference": "43a678bdb7808a6f58c53e6a4e90d6d914d3cdfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/d24660af8004d9d36765d586c9c506c96db6c3fd",
-                "reference": "d24660af8004d9d36765d586c9c506c96db6c3fd",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/43a678bdb7808a6f58c53e6a4e90d6d914d3cdfd",
+                "reference": "43a678bdb7808a6f58c53e6a4e90d6d914d3cdfd",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6",
-                "technote/gutenberg-package-versions": "^0.2.25"
+                "technote/gutenberg-package-versions": "^0.2.42"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0 || ^0.6.0",
@@ -113,7 +107,13 @@
                 "gutenberg",
                 "wordpress"
             ],
-            "time": "2020-02-15T08:48:49+00:00"
+            "funding": [
+                {
+                    "url": "https://paypal.me/technote0space",
+                    "type": "custom"
+                }
+            ],
+            "time": "2020-04-05T10:07:40+00:00"
         }
     ],
     "packages-dev": [
