@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
-            "version": "v0.2.42",
+            "version": "v0.2.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-package-versions.git",
-                "reference": "e784256248cd38ee8c1435090bc878b35ac5bea0"
+                "reference": "3baf7e055b5db7912e85b14d9752d546a0aa69d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/e784256248cd38ee8c1435090bc878b35ac5bea0",
-                "reference": "e784256248cd38ee8c1435090bc878b35ac5bea0",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/3baf7e055b5db7912e85b14d9752d546a0aa69d9",
+                "reference": "3baf7e055b5db7912e85b14d9752d546a0aa69d9",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 "gutenberg",
                 "wordpress"
             ],
-            "time": "2020-04-04T19:42:40+00:00"
+            "time": "2020-04-15T17:36:41+00:00"
         },
         {
             "name": "technote/gutenberg-packages",
@@ -106,12 +106,6 @@
             "keywords": [
                 "gutenberg",
                 "wordpress"
-            ],
-            "funding": [
-                {
-                    "url": "https://paypal.me/technote0space",
-                    "type": "custom"
-                }
             ],
             "time": "2020-04-05T10:07:40+00:00"
         }
@@ -1999,20 +1993,6 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-03-27T16:56:45+00:00"
         },
         {
@@ -2086,20 +2066,6 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-03-30T11:42:42+00:00"
         },
         {
@@ -2150,20 +2116,6 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-03-27T16:56:45+00:00"
         },
         {
@@ -2353,20 +2305,6 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-03-30T11:41:10+00:00"
         },
         {
