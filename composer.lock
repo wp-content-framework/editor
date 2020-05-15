@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
-            "version": "v0.2.47",
+            "version": "v0.2.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-package-versions.git",
-                "reference": "19f43ed1d1bb76bd00a6d1c6d5176e15e5749d1d"
+                "reference": "c954911ba66ee3b1fe2bf9657eb4fa9180b49528"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/19f43ed1d1bb76bd00a6d1c6d5176e15e5749d1d",
-                "reference": "19f43ed1d1bb76bd00a6d1c6d5176e15e5749d1d",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/c954911ba66ee3b1fe2bf9657eb4fa9180b49528",
+                "reference": "c954911ba66ee3b1fe2bf9657eb4fa9180b49528",
                 "shasum": ""
             },
             "require": {
@@ -61,7 +61,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-04-30T15:46:40+00:00"
+            "time": "2020-05-12T15:53:38+00:00"
         },
         {
             "name": "technote/gutenberg-packages",
@@ -2171,16 +2171,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.15.0",
+            "version": "v1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14"
+                "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
+                "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
                 "shasum": ""
             },
             "require": {
@@ -2192,7 +2192,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.17-dev"
                 }
             },
             "autoload": {
@@ -2239,7 +2239,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-02-27T09:26:54+00:00"
+            "time": "2020-05-12T16:14:59+00:00"
         },
         {
             "name": "symfony/service-contracts",
