@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f69063ca1fc80eb76beba000b471c4d",
+    "content-hash": "8c4ce1ee0342d25d4543520a2099d757",
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
-            "version": "v0.2.48",
+            "version": "v0.2.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-package-versions.git",
-                "reference": "c954911ba66ee3b1fe2bf9657eb4fa9180b49528"
+                "reference": "15c9085518bab08216e5cdea318540e1fab77ef6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/c954911ba66ee3b1fe2bf9657eb4fa9180b49528",
-                "reference": "c954911ba66ee3b1fe2bf9657eb4fa9180b49528",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/15c9085518bab08216e5cdea318540e1fab77ef6",
+                "reference": "15c9085518bab08216e5cdea318540e1fab77ef6",
                 "shasum": ""
             },
             "require": {
@@ -61,25 +61,25 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-05-12T15:53:38+00:00"
+            "time": "2020-05-14T15:55:37+00:00"
         },
         {
             "name": "technote/gutenberg-packages",
-            "version": "v0.2.9",
+            "version": "v0.2.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-packages.git",
-                "reference": "940729cce79cd403aa211ba31212d79ab52928cb"
+                "reference": "507fd89b792cc9ecc9088acee913b648940a7d70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/940729cce79cd403aa211ba31212d79ab52928cb",
-                "reference": "940729cce79cd403aa211ba31212d79ab52928cb",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/507fd89b792cc9ecc9088acee913b648940a7d70",
+                "reference": "507fd89b792cc9ecc9088acee913b648940a7d70",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6",
-                "technote/gutenberg-package-versions": "^0.2.47"
+                "technote/gutenberg-package-versions": "^0.2.48"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0 || ^0.6.0",
@@ -119,7 +119,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-05-04T18:35:26+00:00"
+            "time": "2020-05-15T15:29:15+00:00"
         }
     ],
     "packages-dev": [
@@ -2422,16 +2422,16 @@
         },
         {
             "name": "wp-coding-standards/wpcs",
-            "version": "2.2.1",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress-Coding-Standards.git",
-                "reference": "b5a453203114cc2284b1a614c4953456fbe4f546"
+                "reference": "7da1894633f168fe244afc6de00d141f27517b62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/zipball/b5a453203114cc2284b1a614c4953456fbe4f546",
-                "reference": "b5a453203114cc2284b1a614c4953456fbe4f546",
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/zipball/7da1894633f168fe244afc6de00d141f27517b62",
+                "reference": "7da1894633f168fe244afc6de00d141f27517b62",
                 "shasum": ""
             },
             "require": {
@@ -2441,6 +2441,7 @@
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.5 || ^0.6",
                 "phpcompatibility/php-compatibility": "^9.0",
+                "phpcsstandards/phpcsdevtools": "^1.0",
                 "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
             },
             "suggest": {
@@ -2463,7 +2464,7 @@
                 "standards",
                 "wordpress"
             ],
-            "time": "2020-02-04T02:52:06+00:00"
+            "time": "2020-05-13T23:57:56+00:00"
         }
     ],
     "aliases": [],
