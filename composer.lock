@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b5e103b04de3f5332be05e84fdfb0d6",
+    "content-hash": "41a904a0686c835927d95e9e073d8e56",
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
-            "version": "v0.2.52",
+            "version": "v0.2.53",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-package-versions.git",
-                "reference": "38e5bcb599970a66948e11e278de8b8710271fce"
+                "reference": "f750250cca18f2de23dae5c08801b72dda9feb96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/38e5bcb599970a66948e11e278de8b8710271fce",
-                "reference": "38e5bcb599970a66948e11e278de8b8710271fce",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/f750250cca18f2de23dae5c08801b72dda9feb96",
+                "reference": "f750250cca18f2de23dae5c08801b72dda9feb96",
                 "shasum": ""
             },
             "require": {
@@ -61,25 +61,25 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-05-29T16:03:38+00:00"
+            "time": "2020-06-08T16:09:32+00:00"
         },
         {
             "name": "technote/gutenberg-packages",
-            "version": "v0.2.11",
+            "version": "v0.2.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-packages.git",
-                "reference": "bc53d2d8cb8618ea3f0387c77f9914e275573621"
+                "reference": "5daa04f26a42cf99f75df0b70132c38eaed55b5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/bc53d2d8cb8618ea3f0387c77f9914e275573621",
-                "reference": "bc53d2d8cb8618ea3f0387c77f9914e275573621",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/5daa04f26a42cf99f75df0b70132c38eaed55b5c",
+                "reference": "5daa04f26a42cf99f75df0b70132c38eaed55b5c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6",
-                "technote/gutenberg-package-versions": "^0.2.50"
+                "technote/gutenberg-package-versions": "^0.2.52"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0 || ^0.6.0",
@@ -119,22 +119,22 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-05-28T03:08:23+00:00"
+            "time": "2020-06-06T08:40:52+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "composer/xdebug-handler",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "1ab9842d69e64fb3a01be6b656501032d1b78cb7"
+                "reference": "fa2aaf99e2087f013a14f7432c1cd2dd7d8f1f51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/1ab9842d69e64fb3a01be6b656501032d1b78cb7",
-                "reference": "1ab9842d69e64fb3a01be6b656501032d1b78cb7",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/fa2aaf99e2087f013a14f7432c1cd2dd7d8f1f51",
+                "reference": "fa2aaf99e2087f013a14f7432c1cd2dd7d8f1f51",
                 "shasum": ""
             },
             "require": {
@@ -169,9 +169,17 @@
                 {
                     "url": "https://packagist.com",
                     "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
                 }
             ],
-            "time": "2020-03-01T12:26:26+00:00"
+            "time": "2020-06-04T11:16:35+00:00"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
