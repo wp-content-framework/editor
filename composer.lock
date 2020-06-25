@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
-            "version": "v0.2.55",
+            "version": "v0.2.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-package-versions.git",
-                "reference": "f8aeb24b4427d74ef0382cba6760e0da8e545834"
+                "reference": "b345b3c37ce4c380c12a0c72901aecf2d013ee37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/f8aeb24b4427d74ef0382cba6760e0da8e545834",
-                "reference": "f8aeb24b4427d74ef0382cba6760e0da8e545834",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/b345b3c37ce4c380c12a0c72901aecf2d013ee37",
+                "reference": "b345b3c37ce4c380c12a0c72901aecf2d013ee37",
                 "shasum": ""
             },
             "require": {
@@ -61,7 +61,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-06-22T16:16:59+00:00"
+            "time": "2020-06-24T16:18:47+00:00"
         },
         {
             "name": "technote/gutenberg-packages",
