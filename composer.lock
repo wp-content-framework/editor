@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a837c8c7fb51d802bc2a52a470065191",
+    "content-hash": "ac4620447614a61a1c0ed96ce92cb9e6",
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
-            "version": "v0.2.56",
+            "version": "v0.2.58",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-package-versions.git",
-                "reference": "b345b3c37ce4c380c12a0c72901aecf2d013ee37"
+                "reference": "0cf6aac680f3f49be68cf3841c5043f77f366130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/b345b3c37ce4c380c12a0c72901aecf2d013ee37",
-                "reference": "b345b3c37ce4c380c12a0c72901aecf2d013ee37",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/0cf6aac680f3f49be68cf3841c5043f77f366130",
+                "reference": "0cf6aac680f3f49be68cf3841c5043f77f366130",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6"
             },
             "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0 || ^0.6.0",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0 || ^0.6.0 || ^0.7.0",
                 "phpcompatibility/phpcompatibility-wp": "*",
                 "phpmd/phpmd": "^2.8",
                 "phpunit/phpunit": "^4.8 || ^5.7 || ^7.5",
@@ -61,20 +61,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-06-24T16:18:47+00:00"
+            "time": "2020-07-08T16:26:41+00:00"
         },
         {
             "name": "technote/gutenberg-packages",
-            "version": "v0.2.15",
+            "version": "v0.2.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-packages.git",
-                "reference": "0a07402e02246df43c04c985d0b3ba2124372ef0"
+                "reference": "cf218cec89eb54da4cf04861e001ad897c14f7c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/0a07402e02246df43c04c985d0b3ba2124372ef0",
-                "reference": "0a07402e02246df43c04c985d0b3ba2124372ef0",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/cf218cec89eb54da4cf04861e001ad897c14f7c8",
+                "reference": "cf218cec89eb54da4cf04861e001ad897c14f7c8",
                 "shasum": ""
             },
             "require": {
@@ -119,7 +119,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-06-25T18:42:56+00:00"
+            "time": "2020-07-05T08:49:32+00:00"
         }
     ],
     "packages-dev": [
@@ -2144,16 +2144,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v2.1.2",
+            "version": "v2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "dd99cb3a0aff6cadd2a8d7d7ed72c2161e218337"
+                "reference": "5e20b83385a77593259c9f8beb2c43cd03b2ac14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/dd99cb3a0aff6cadd2a8d7d7ed72c2161e218337",
-                "reference": "dd99cb3a0aff6cadd2a8d7d7ed72c2161e218337",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5e20b83385a77593259c9f8beb2c43cd03b2ac14",
+                "reference": "5e20b83385a77593259c9f8beb2c43cd03b2ac14",
                 "shasum": ""
             },
             "require": {
@@ -2163,6 +2163,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.1-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -2200,7 +2204,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-27T08:34:37+00:00"
+            "time": "2020-06-06T08:49:21+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -2424,16 +2428,16 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v2.1.2",
+            "version": "v2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "66a8f0957a3ca54e4f724e49028ab19d75a8918b"
+                "reference": "58c7475e5457c5492c26cc740cc0ad7464be9442"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/66a8f0957a3ca54e4f724e49028ab19d75a8918b",
-                "reference": "66a8f0957a3ca54e4f724e49028ab19d75a8918b",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/58c7475e5457c5492c26cc740cc0ad7464be9442",
+                "reference": "58c7475e5457c5492c26cc740cc0ad7464be9442",
                 "shasum": ""
             },
             "require": {
@@ -2447,6 +2451,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.1-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -2492,7 +2500,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-20T17:43:50+00:00"
+            "time": "2020-07-06T13:23:11+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -2569,20 +2577,20 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.9.0",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "9dc4f203e36f2b486149058bade43c851dd97451"
+                "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/9dc4f203e36f2b486149058bade43c851dd97451",
-                "reference": "9dc4f203e36f2b486149058bade43c851dd97451",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3 || ^7.0",
+                "php": "^5.3.3 || ^7.0 || ^8.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
@@ -2614,7 +2622,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2020-06-16T10:16:42+00:00"
+            "time": "2020-07-08T17:02:28+00:00"
         },
         {
             "name": "wp-coding-standards/wpcs",
