@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac4620447614a61a1c0ed96ce92cb9e6",
+    "content-hash": "8c39daddc4c802589b759287a289f21f",
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
-            "version": "v0.2.58",
+            "version": "v0.2.59",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-package-versions.git",
-                "reference": "0cf6aac680f3f49be68cf3841c5043f77f366130"
+                "reference": "2bbe437266af916a364abba6ce8a6d3ca298caac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/0cf6aac680f3f49be68cf3841c5043f77f366130",
-                "reference": "0cf6aac680f3f49be68cf3841c5043f77f366130",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/2bbe437266af916a364abba6ce8a6d3ca298caac",
+                "reference": "2bbe437266af916a364abba6ce8a6d3ca298caac",
                 "shasum": ""
             },
             "require": {
@@ -61,25 +61,25 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-07-08T16:26:41+00:00"
+            "time": "2020-07-09T16:27:35+00:00"
         },
         {
             "name": "technote/gutenberg-packages",
-            "version": "v0.2.16",
+            "version": "v0.2.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-packages.git",
-                "reference": "cf218cec89eb54da4cf04861e001ad897c14f7c8"
+                "reference": "1bd0f1bba7a47da4b7d5a4c2605046cbe33bd7ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/cf218cec89eb54da4cf04861e001ad897c14f7c8",
-                "reference": "cf218cec89eb54da4cf04861e001ad897c14f7c8",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/1bd0f1bba7a47da4b7d5a4c2605046cbe33bd7ba",
+                "reference": "1bd0f1bba7a47da4b7d5a4c2605046cbe33bd7ba",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6",
-                "technote/gutenberg-package-versions": "^0.2.56"
+                "technote/gutenberg-package-versions": "^0.2.59"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0 || ^0.6.0",
@@ -119,7 +119,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-07-05T08:49:32+00:00"
+            "time": "2020-07-12T01:45:57+00:00"
         }
     ],
     "packages-dev": [
@@ -2272,16 +2272,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d"
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
-                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1c302646f6efc070cd46856e600e5e0684d6b454",
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454",
                 "shasum": ""
             },
             "require": {
@@ -2293,7 +2293,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -2344,20 +2344,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "4a5b6bba3259902e386eb80dd1956181ee90b5b2"
+                "reference": "d87d5766cbf48d72388a9f6b85f280c8ad51f981"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/4a5b6bba3259902e386eb80dd1956181ee90b5b2",
-                "reference": "4a5b6bba3259902e386eb80dd1956181ee90b5b2",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/d87d5766cbf48d72388a9f6b85f280c8ad51f981",
+                "reference": "d87d5766cbf48d72388a9f6b85f280c8ad51f981",
                 "shasum": ""
             },
             "require": {
@@ -2366,7 +2366,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -2424,7 +2424,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/service-contracts",
