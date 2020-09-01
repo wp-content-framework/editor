@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6b23967e373854940faccd9a7c9707d",
+    "content-hash": "17d5edf9c191412f9dde93376d686e67",
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
-            "version": "v0.2.67",
+            "version": "v0.2.68",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-package-versions.git",
-                "reference": "0aae73754bf1a81f2c91e1d6bc8a15ca56efde22"
+                "reference": "d8aecc8e832bfd0dbba5a4946324fe220259a65e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/0aae73754bf1a81f2c91e1d6bc8a15ca56efde22",
-                "reference": "0aae73754bf1a81f2c91e1d6bc8a15ca56efde22",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/d8aecc8e832bfd0dbba5a4946324fe220259a65e",
+                "reference": "d8aecc8e832bfd0dbba5a4946324fe220259a65e",
                 "shasum": ""
             },
             "require": {
@@ -61,25 +61,25 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-08-18T16:45:58+00:00"
+            "time": "2020-08-20T16:46:34+00:00"
         },
         {
             "name": "technote/gutenberg-packages",
-            "version": "v0.2.23",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-packages.git",
-                "reference": "be0ad474ecc10c0d21b02d343260de1319ed02a2"
+                "reference": "e25aa33a0f732b0ad96b85542db84141b2f152a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/be0ad474ecc10c0d21b02d343260de1319ed02a2",
-                "reference": "be0ad474ecc10c0d21b02d343260de1319ed02a2",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/e25aa33a0f732b0ad96b85542db84141b2f152a7",
+                "reference": "e25aa33a0f732b0ad96b85542db84141b2f152a7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6",
-                "technote/gutenberg-package-versions": "^0.2.66"
+                "technote/gutenberg-package-versions": "^0.2.68"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0 || ^0.6.0",
@@ -119,7 +119,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-08-18T06:35:13+00:00"
+            "time": "2020-08-25T17:34:03+00:00"
         }
     ],
     "packages-dev": [
