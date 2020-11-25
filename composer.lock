@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "technote/gutenberg-package-versions",
-            "version": "v0.2.88",
+            "version": "v0.2.89",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-package-versions.git",
-                "reference": "8a5acddbf5a69c00770ae5903837f6b33eab6d49"
+                "reference": "6ff73e548c16ac1b8d9e8eeff5552a903ff99938"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/8a5acddbf5a69c00770ae5903837f6b33eab6d49",
-                "reference": "8a5acddbf5a69c00770ae5903837f6b33eab6d49",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-package-versions/zipball/6ff73e548c16ac1b8d9e8eeff5552a903ff99938",
+                "reference": "6ff73e548c16ac1b8d9e8eeff5552a903ff99938",
                 "shasum": ""
             },
             "require": {
@@ -57,7 +57,7 @@
             ],
             "support": {
                 "issues": "https://github.com/technote-space/gutenberg-package-versions/issues",
-                "source": "https://github.com/technote-space/gutenberg-package-versions/tree/v0.2.88"
+                "source": "https://github.com/technote-space/gutenberg-package-versions/tree/v0.2.89"
             },
             "funding": [
                 {
@@ -65,25 +65,25 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-11-18T17:32:48+00:00"
+            "time": "2020-11-19T17:33:32+00:00"
         },
         {
             "name": "technote/gutenberg-packages",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/technote-space/gutenberg-packages.git",
-                "reference": "ace3ae11c422f0d4f41bb0b0343956faa330051c"
+                "reference": "aeb3935a11333b98a7081327d4d64500a5e171ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/ace3ae11c422f0d4f41bb0b0343956faa330051c",
-                "reference": "ace3ae11c422f0d4f41bb0b0343956faa330051c",
+                "url": "https://api.github.com/repos/technote-space/gutenberg-packages/zipball/aeb3935a11333b98a7081327d4d64500a5e171ab",
+                "reference": "aeb3935a11333b98a7081327d4d64500a5e171ab",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6",
-                "technote/gutenberg-package-versions": "^0.2.75"
+                "technote/gutenberg-package-versions": "^0.2.82"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0 || ^0.6.0",
@@ -119,7 +119,7 @@
             ],
             "support": {
                 "issues": "https://github.com/technote-space/gutenberg-packages/issues",
-                "source": "https://github.com/technote-space/gutenberg-packages/tree/v1.0.2"
+                "source": "https://github.com/technote-space/gutenberg-packages/tree/v1.0.3"
             },
             "funding": [
                 {
@@ -127,7 +127,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-09-25T04:57:38+00:00"
+            "time": "2020-11-22T09:26:07+00:00"
         }
     ],
     "packages-dev": [
